@@ -1,0 +1,58 @@
+p, ol, ul
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1, h2, h3, h4, h5, h6
+{
+	text-align: center;
+}
+.center
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav a
+{
+	padding: 5px 20px;
+	margin: 0px 10px;
+}
+nav a:link
+{
+	background-color: lightBlue;
+	border: 2px outset lightBlue;
+}
+nav a:visited
+{
+	background-color: skyBlue;
+	border: 2px outset skyBlue;
+}
+nav a:hover
+{
+	background-color: aliceBlue;
+	border: 2px outset aliceBlue;
+}
+nav a:active
+{
+	background-color: aliceBlue;
+	border: 2px inset aliceBlue;
+}
+body
+{
+	background-color: beige;
+}
+h1, h2, h3, h4, h5, h6
+{
+	background-color: burlyWood;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px ridge burlyWood;
+}
+#video
+{
+	background-color: black;
+	border: 2px inset lightGrey;
+}
