@@ -1,0 +1,36 @@
+const getMakers = async() => {
+    const src = "makers.json";
+
+    try{
+        const response = await fetch(url);
+        return response .json();
+    }catch(error){
+        console.log("issue");
+    }
+
+};
+
+const showBreweries = async() =>{
+    const breweries = await getBreweries();
+    const breweriesSection = document.getElementById("breweries");
+
+    breweries.forEach((pub) => {
+        const section = document.createElement("section");
+        breweriesSection.append(section);
+        section.classList.add("brewery");
+
+        //title link
+        const h3 = document.createElement("h3");
+        section.append(h3);
+        const a = document.createElement("a");
+        h3.append(a);
+        a.innerHTML = pub.name;
+        a.href= pub.website_url;
+
+        //p for brewery type
+        const pType = document.createElement("p");
+        section.append 
+    });
+};
+
+showBreweries();
