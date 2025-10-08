@@ -4,14 +4,14 @@
         "major": "Media Arts",
         "discipline": "Design",
         "portfolio":"https://elenamaddoxart.myportfolio.com/",
-        "headshot-link": 
+        "headshot-link": "images/janeDoe.jpg"
     },
     {
         "name": "John Doe",
         "major": "Studio Arts",
         "dscipline":"Ceramics",
         "portfolio":"https://elenamaddoxart.myportfolio.com/",
-      "headshot-link":
+      "headshot-link": "images/johnDoe.jpg"
     },
 
 ]
