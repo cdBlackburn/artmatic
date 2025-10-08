@@ -9,9 +9,9 @@
     {
         "name": "John Doe",
         "major": "Studio Arts",
-        "dscipline":"Ceramics",
+        "discipline":"Ceramics",
         "portfolio":"https://elenamaddoxart.myportfolio.com/",
-      "headshot-link": "images/johnDoe.jpg"
+        "headshotLink": "images/johnDoe.jpg"
     },
 
 ]
