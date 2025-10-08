@@ -10,27 +10,38 @@ const getMakers = async() => {
 
 };
 
-const showBreweries = async() =>{
-    const breweries = await getBreweries();
-    const breweriesSection = document.getElementById("breweries");
+const showMakers = async() =>{
+    const makers = await getMakers();
+    const makersSection = document.getElementById("makers");
 
-    breweries.forEach((pub) => {
+    breweries.forEach((maker) => {
         const section = document.createElement("section");
-        breweriesSection.append(section);
-        section.classList.add("brewery");
+        makersSection.append(section);
+        section.classList.add("maker");
 
         //title link
         const h3 = document.createElement("h3");
         section.append(h3);
-        const a = document.createElement("a");
-        h3.append(a);
-        a.innerHTML = pub.name;
-        a.href= pub.website_url;
+        h3.innerHTML = maker.name;
+        const h4 = document.createElement("h4");
+        section.append(h4);
+        h4.innerHTML = maker.major;
 
-        //p for brewery type
-        const pType = document.createElement("p");
-        section.append 
+        const h5 = document.createElement("h5");
+        section.append(h5);
+        h5.innerHTML = maker.discipline;
+
+        const p = document.createElement("p");
+        section.append(p);
+        const a = document.createElement("a");
+        p.append(a);
+        a.innerHTML = "Projects";
+        a.href = maker.portfolioLink;
+        
+        const img = document.createElemetn("img");
+        section.append(img);
+        img.src = `makers.json/json/${maker.image};
     });
 };
 
-showBreweries();
+showMakers();
