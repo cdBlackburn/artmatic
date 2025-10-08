@@ -66,3 +66,16 @@ h1, h2, h3, h4, h5, h6
 
 }
 
+/*makers*/
+.makers{
+    flex-wrap:wrap;
+    background:var(--c3);
+}
+
+/* Medium screens */
+@media only screen and (min-width: 768px) { 
+    .columns {
+        display:flex;
+    }
+
+}
