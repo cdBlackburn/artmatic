@@ -36,11 +36,11 @@ const showMakers = async() =>{
         const a = document.createElement("a");
         p.append(a);
         a.innerHTML = "Projects";
-        a.href = maker.portfolioLink;
+        a.href = maker.portfolio;
         
         const img = document.createElemetn("img");
         section.append(img);
-        img.src = `makers.json/json/${maker.image};
+        img.src = `makers.json/json/${maker.headshot-link};
     });
 };
 
