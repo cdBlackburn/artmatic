@@ -2,7 +2,7 @@ const getMakers = async() => {
     const src = "makers.json";
 
     try{
-        const response = await fetch(url);
+        const response = await fetch(src);
         return response .json();
     }catch(error){
         console.log("issue");
