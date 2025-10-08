@@ -41,6 +41,8 @@ const showMakers = async() =>{
         const img = document.createElemetn("img");
         section.append(img);
         img.src = `makers.json/json/${maker.headshotLink}`;
+
+        makersSection.append(section);
     });
 };
 
