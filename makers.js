@@ -40,7 +40,7 @@ const showMakers = async() =>{
         
         const img = document.createElemetn("img");
         section.append(img);
-        img.src = `makers.json/json/${maker.headshot-link};
+        img.src = `makers.json/json/${maker.headshotLink}`;
     });
 };
 
