@@ -14,7 +14,7 @@ const showMakers = async() =>{
     const makers = await getMakers();
     const makersSection = document.getElementById("makers");
 
-    breweries.forEach((maker) => {
+    makers.forEach((maker) => {
         const section = document.createElement("section");
         makersSection.append(section);
         section.classList.add("maker");
