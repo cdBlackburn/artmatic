@@ -1,3 +1,10 @@
+:root{
+	--c1: lightBlue;
+	--c2: skyBlue;
+	--c3: aliceBlue;
+	--c4: burlyWood;
+}
+
 p, ol, ul
 {
 	width: 80%;
@@ -18,26 +25,27 @@ nav a
 {
 	padding: 5px 20px;
 	margin: 0px 10px;
+	text-decoration: none;
 }
 nav a:link
 {
-	background-color: lightBlue;
-	border: 2px outset lightBlue;
+	background-color: var(--c1);
+	border: 2px outset var(--c1);
 }
 nav a:visited
 {
-	background-color: skyBlue;
-	border: 2px outset skyBlue;
+	background-color: var(--c2);
+	border: 2px outset var(--c2);
 }
 nav a:hover
 {
-	background-color: aliceBlue;
-	border: 2px outset aliceBlue;
+	background-color: var(--c3);
+	border: 2px outset var(--c3);
 }
 nav a:active
 {
-	background-color: aliceBlue;
-	border: 2px inset aliceBlue;
+	background-color: var(--c3);
+	border: 2px inset var(--c3);
 }
 body
 {
@@ -45,14 +53,15 @@ body
 }
 h1, h2, h3, h4, h5, h6
 {
-	background-color: burlyWood;
+	background-color: var(--c4);
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
-	border: 2px ridge burlyWood;
+	border: 2px ridge var(--c4);
 }
 #video
 {
 	background-color: black;
 	border: 2px inset lightGrey;
+
 }
