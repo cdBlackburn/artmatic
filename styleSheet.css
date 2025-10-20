@@ -3,6 +3,7 @@
 	--c2: skyBlue;
 	--c3: aliceBlue;
 	--c4: burlyWood;
+	--c5:#750009;
 }
 
 p, ol, ul
@@ -29,7 +30,7 @@ nav a
 }
 nav a:link
 {
-	background-color: var(--c1);
+	background-color: var(--c5);
 	border: 2px outset var(--c1);
 }
 nav a:visited
@@ -79,3 +80,4 @@ h1, h2, h3, h4, h5, h6
     }
 
 }
+
