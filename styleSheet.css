@@ -45,7 +45,7 @@ nav a:hover
 }
 nav a:active
 {
-	background-color: var(--c3);
+	background-color: var(--c5);
 	border: 2px inset var(--c3);
 }
 body
@@ -80,4 +80,5 @@ h1, h2, h3, h4, h5, h6
     }
 
 }
+
 
