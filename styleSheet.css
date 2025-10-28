@@ -18,9 +18,16 @@ nav a
 {
 	padding: 5px 20px;
 	margin: 0px 10px;
+<<<<<<< Updated upstream
+=======
+	text-decoration: none;
+	background-color: var(--c5);
+>>>>>>> Stashed changes
 }
+
 nav a:link
 {
+<<<<<<< Updated upstream
 	background-color: lightBlue;
 	border: 2px outset lightBlue;
 }
@@ -33,6 +40,20 @@ nav a:hover
 {
 	background-color: aliceBlue;
 	border: 2px outset aliceBlue;
+=======
+	color: var(--c5);
+	border: 2px outset var(--c1);
+}
+nav a:visited
+{
+	color: var(--c5);
+	border: 2px outset var(--c2);
+}
+nav a:hover
+{
+	color: var(--c3);
+	border: 2px outset var(--c3);
+>>>>>>> Stashed changes
 }
 nav a:active
 {

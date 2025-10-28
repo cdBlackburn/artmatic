@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Jane Doe",
+        "major": "Media Arts",
+        "discipline": "Design",
+        "portfolio":"https://elenamaddoxart.myportfolio.com/",
+        "headshot-link": "images/janeDoe.jpg"
+    },
+    {
+        "name": "John Doe",
+        "major": "Studio Arts",
+        "discipline":"Ceramics",
+        "portfolio":"https://elenamaddoxart.myportfolio.com/",
+        "headshot-link": "images/johnDoe.jpg"
+    },
+    {
+        "name": "Chase Cooke",
+        "major":"Media Arts",
+        "discipline":"Videography",
+        "portfolio":"",
+        "headshot-link":"images/johnDoe.jpg"
+    }
+
+]
